@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Original paintings by artist Irina Biunger. Wildlife, seascapes, flowers and atmospheric landscapes.">
+  <title>Irina Biunger | Original Paintings</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600&family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <a class="logo" href="#home">IRINA BIUNGER</a>
+    <button class="menu-button" aria-label="Open menu" aria-expanded="false">Menu</button>
+    <nav class="nav" aria-label="Main navigation">
+      <a href="#gallery">Gallery</a>
+      <a href="#about">About</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <img src="images/hero.svg" alt="Atmospheric landscape painting placeholder">
+      <div class="hero-overlay"></div>
+      <div class="hero-content">
+        <p class="eyebrow">Original paintings</p>
+        <h1>Quiet moments<br>inspired by nature</h1>
+        <a class="button button-light" href="#gallery">Explore the gallery</a>
+      </div>
+    </section>
+
+    <section class="intro">
+      <p class="eyebrow">Artist based in Germany</p>
+      <h2>Paintings about stillness, light and the quiet connection between us and the natural world.</h2>
+    </section>
+
+    <section class="gallery-section" id="gallery">
+      <div class="section-heading">
+        <div>
+          <p class="eyebrow">Selected works</p>
+          <h2>Gallery</h2>
+        </div>
+        <p>A selection of wildlife, seascapes, flowers and atmospheric landscapes.</p>
+      </div>
+
+      <div class="gallery-grid">
+        <article class="art-card art-card-large">
+          <img src="images/wildlife.svg" alt="Wildlife painting placeholder">
+          <div class="art-info">
+            <h3>Wildlife</h3>
+            <p>Original oil paintings</p>
+          </div>
+        </article>
+
+        <article class="art-card">
+          <img src="images/seascape.svg" alt="Seascape painting placeholder">
+          <div class="art-info">
+            <h3>Seascapes</h3>
+            <p>Light, water and distance</p>
+          </div>
+        </article>
+
+        <article class="art-card">
+          <img src="images/flowers.svg" alt="Flower painting placeholder">
+          <div class="art-info">
+            <h3>Flowers</h3>
+            <p>Delicate and textured works</p>
+          </div>
+        </article>
+
+        <article class="art-card art-card-wide">
+          <img src="images/landscape.svg" alt="Landscape painting placeholder">
+          <div class="art-info">
+            <h3>Landscapes</h3>
+            <p>Quiet space for a tired soul</p>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="about-section" id="about">
+      <div class="about-image">
+        <img src="images/artist.svg" alt="Artist portrait placeholder">
+      </div>
+      <div class="about-text">
+        <p class="eyebrow">About the artist</p>
+        <h2>Irina Biunger</h2>
+        <p>I am a self-taught artist living in Germany. I create oil and acrylic paintings inspired by quiet moments in nature, atmospheric light and the character of animals.</p>
+        <p>My works are held in private collections and have been sold to collectors in Germany and other European countries.</p>
+        <a class="text-link" href="#contact">Contact the artist <span>→</span></a>
+      </div>
+    </section>
+
+    <section class="contact-section" id="contact">
+      <p class="eyebrow">Contact</p>
+      <h2>Interested in a painting?</h2>
+      <p>For available works, commissions or exhibition enquiries, please get in touch.</p>
+
+      <div class="contact-links">
+        <a href="mailto:YOUR-EMAIL@example.com">Email</a>
+        <a href="https://www.instagram.com/irina.fineart/" target="_blank" rel="noopener">Instagram</a>
+        <a href="#" target="_blank" rel="noopener">Etsy</a>
+        <a href="#" target="_blank" rel="noopener">eBay</a>
+      </div>
+      <p class="small-note">Replace the email address and shop links in <strong>index.html</strong>.</p>
+    </section>
+  </main>
+
+  <footer>
+    <p>© <span id="year"></span> Irina Biunger</p>
+    <a href="#home">Back to top ↑</a>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
