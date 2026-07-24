@@ -596,3 +596,24 @@ footer p {
     grid-template-columns: 1fr;
   }
 }
+
+.painting-meta {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.status {
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.sold {
+    color: #8a8783;
+}
+
+.available {
+    color: #8b6a2d;
+    font-weight: 600;
+}
