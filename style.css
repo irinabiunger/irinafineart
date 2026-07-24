@@ -549,7 +549,7 @@ footer p {
 .painting-card img {
   display: block;
   width: 100%;
-  aspect-ratio: 4 / 5;
+  aspect-ratio: 2 / 3;
   object-fit: cover;
   transition: transform 0.3s ease;
 }
