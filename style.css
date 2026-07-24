@@ -158,8 +158,8 @@ h3 {
 
 .gallery-grid {
   display: grid;
-  grid-template-columns: repeat(2, minmax(0, 1fr));
-  gap: 24px;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 32px;
 }
 
 .art-card {
@@ -485,5 +485,114 @@ footer p {
 
   .hero-artworks img {
     height: 500px;
+  }
+}
+.site-header {
+    color: #202020;
+    background: rgba(247, 244, 238, 0.96);
+    border-bottom: 1px solid rgba(32, 32, 32, 0.08);
+}
+
+.site-header .logo,
+.site-header .nav a,
+.site-header .menu-button {
+    color: #202020;
+}
+
+.card-link {
+    text-decoration: none;
+    color: inherit;
+    display: block;
+}
+
+.collection-hero {
+  padding: 90px 4vw 60px;
+  background: #f7f4ee;
+  color: #202020;
+  text-align: center;
+}
+
+.collection-hero .eyebrow {
+  margin: 0 0 18px;
+  color: #a8783d;
+}
+
+.collection-hero h1 {
+  margin: 0;
+  font-family: "Cormorant Garamond", serif;
+  font-size: clamp(72px, 10vw, 150px);
+  font-weight: 400;
+  line-height: 0.9;
+}
+
+.collection-intro {
+  max-width: 620px;
+  margin: 28px auto 0;
+  font-size: 18px;
+  line-height: 1.65;
+}
+
+.collection-section {
+  padding: 10px 4vw 60px;
+  background: #f7f4ee;
+  color: #202020;
+}
+
+.collection-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 34px 24px;
+  max-width: 1500px;
+  margin: 0 auto;
+}
+
+.painting-card img {
+  display: block;
+  width: 100%;
+  aspect-ratio: 4 / 5;
+  object-fit: cover;
+  transition: transform 0.3s ease;
+}
+
+.painting-card:hover img {
+    transform: scale(1.03);
+}
+
+.painting-details {
+  padding-top: 14px;
+}
+
+.painting-details h2 {
+  margin: 0;
+  font-family: "Cormorant Garamond", serif;
+  font-size: 32px;
+  font-weight: 400;
+}
+
+.painting-details p {
+  margin: 5px 0 0;
+  color: #6f6b65;
+  font-size: 13px;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+@media (max-width: 900px) {
+  .collection-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (max-width: 600px) {
+  .collection-hero {
+    padding: 140px 20px 70px;
+  }
+
+  .collection-section {
+    padding: 20px 20px 40px;
+  }
+
+  .collection-grid {
+    grid-template-columns: 1fr;
   }
 }
