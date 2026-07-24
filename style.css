@@ -550,7 +550,8 @@ footer p {
   display: block;
   width: 100%;
   height: auto;
-  display: block;
+  object fit: fill;
+  background-color: #f3f0e9;
   transition: transform 0.3s ease;
 }
 
